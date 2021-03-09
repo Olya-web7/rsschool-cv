@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  margin: 5px 410px;
+}
+
+img {
+  width: 100px;
+  margin: 0 auto;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+.contacts {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 100px;
+}
+li.menu {
+  list-style-type: none;
+}
+body {
+  font-family: Roboto, serif;
+  color: rgb(4, 4, 41);
+  background-color: rgb(125, 144, 206);
+}
